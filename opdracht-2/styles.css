@@ -10,10 +10,16 @@ body {
     display: flex;
     flex-direction: row;
     height: 100vh;
+    overflow: scroll;
 }
 
 ul {
     list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /*////////Navigatie balk//////////*/
@@ -21,26 +27,70 @@ ul {
 nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     min-width: 250px;
     flex-basis: 250px;
+    flex-shrink: 0;
     flex-grow: 1;
     border: dashed lightseagreen;
 }
 
 .nav-company {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: dashed darkslategrey;
+    font-weight: bold;
+    font-size: large;
+    gap: 1rem;
+    width: 100%;
 }
 
 .nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: dashed darkslategrey;
+    gap: 1rem;
+    width: 100%;
+    flex-grow: 1;
+}
 
+.nav-icon {
+    height: 1rem;
+    width: 1rem;
+}
+
+.nav-list-content {
+    display: flex;
+    gap: 0.5rem;
 }
 
 .nav-buttons {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: dashed darkslategrey;
+    gap: 1rem;
+    width: 100%;
+    flex-grow: 1;
 }
 
+.button-primary .button-secondary {
+    width: 100%;
+}
+
+/*.button-secondary {*/
+/*    padding: 12px 200px 12px 200px;*/
+/*}*/
+
+/*.button-primary {*/
+/*    padding: 12px 175px 12px 175px;*/
+/*}*/
 
 /*//////////// main stuk /////////////*/
 .main-content {
@@ -48,6 +98,5 @@ nav {
     flex-direction: column;
     border: dashed darkmagenta;
     flex-grow: 2;
-    overflow: scroll;
     flex-basis: 400px;
 }
