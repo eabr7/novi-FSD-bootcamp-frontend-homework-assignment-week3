@@ -4,16 +4,7 @@ ul {
     list-style: none;
 }
 
-/*/////////////////*/
-
-/*.navbar-one {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: space-evenly;*/
-/*    align-items: center;*/
-
-/*}*/
-
+/*/////// opdracht 1 /////////*/
 
 .ul-one {
     display: flex;
@@ -22,23 +13,17 @@ ul {
     align-items: center;
 }
 
-/*/////////////////*/
-
-/*.navbar-two {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: ;*/
-/*    align-items: ;*/
-/*}*/
+/*/////// opdracht 2 /////////*/
 
 .ul-two {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    gap: 30px;
 }
 
-/*/////////////////*/
+/*////// opdracht 3 //////////*/
 
 .navbar-three {
     display: flex;
@@ -52,6 +37,7 @@ ul {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    gap: 15px;
 }
 
 .ul-three {
@@ -59,30 +45,33 @@ ul {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    gap: 30px;
 }
 
 /*/////////////////*/
 
-
 .navbar-four {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    gap: 30px;
 }
 
 .div-four {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 
 .ul-four {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .ul-four-2 {
@@ -90,8 +79,9 @@ ul {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    gap: 15px;
+    flex-grow: 1;
 }
-
 
 /*/////////////////*/
 
@@ -107,6 +97,7 @@ ul {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    gap: 15px;
 }
 
 .ul-five {
@@ -114,12 +105,13 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
-
 
 .ul-five-2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    gap: 15px;
 }
