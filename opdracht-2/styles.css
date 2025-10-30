@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    min-width: 250px;
+    flex-basis: 250px;
+    flex-grow: 1;
+    border: dashed lightseagreen;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    border: dashed darkmagenta;
+    flex-grow: 2;
+    overflow: scroll;
+    flex-basis: 400px;
+}
