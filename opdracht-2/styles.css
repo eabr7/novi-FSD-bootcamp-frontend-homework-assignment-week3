@@ -116,4 +116,16 @@ header {
 
 
 
+
+
 /*//////////// Footer /////////////////*/
+
+footer {
+    background-color: #383838;;
+    color: #e3e3e3;
+    font-weight: lighter;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
