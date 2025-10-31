@@ -96,3 +96,24 @@ nav {
     flex-grow: 2;
     flex-basis: 400px;
 }
+
+/*//////////// Header ///////////////*/
+
+header {
+    background-image: url("../assets/placeholder-image.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*//////////// Main /////////////////*/
+
+
+
+
+/*//////////// Footer /////////////////*/
