@@ -30,10 +30,9 @@ nav {
     justify-content: center;
     align-items: center;
     min-width: 250px;
-    flex-basis: 250px;
+    flex-basis: 300px;
     flex-shrink: 0;
-    flex-grow: 1;
-    border: dashed lightseagreen;
+    gap: 1rem;
 }
 
 .nav-company {
@@ -41,7 +40,6 @@ nav {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    border: dashed darkslategrey;
     font-weight: bold;
     font-size: large;
     gap: 1rem;
@@ -53,7 +51,6 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    border: dashed darkslategrey;
     gap: 1rem;
     width: 100%;
     flex-grow: 1;
@@ -73,24 +70,23 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
-    border: dashed darkslategrey;
+    align-items: stretch;
     gap: 1rem;
     width: 100%;
     flex-grow: 1;
 }
 
-.button-primary .button-secondary {
-    width: 100%;
+.nav-list-content {
+    flex-grow: 1;
 }
 
-/*.button-secondary {*/
-/*    padding: 12px 200px 12px 200px;*/
-/*}*/
+.nav-buttons li {
+    display: flex;
+}
 
-/*.button-primary {*/
-/*    padding: 12px 175px 12px 175px;*/
-/*}*/
+.nav-buttons button {
+    flex-grow: 1;
+}
 
 /*//////////// main stuk /////////////*/
 .main-content {
